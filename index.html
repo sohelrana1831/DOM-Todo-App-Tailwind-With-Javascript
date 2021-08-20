@@ -5,6 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM-Todo-App-Tailwind-With-Javascript</title>
+    <!-- Tailwind css -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body class="bg-yellow-800 m-8">
+    <section class="">
+      <header class="grid justify-items-center">
+        <img class="" src="images/sr.png" alt="" />
+        <h1 class="text-4xl uppercase">
+          DOM-Todo-App-Tailwind-With-Javascript
+        </h1>
+      </header>
+      <main>
+        <form class="grid justify-items-center">
+          <div class="m-8 font-serif text-3xl text-white">
+            <label for="">Add new task</label>
+            <input type="text" id="" class="" />
+            <button class="bg-yellow-600 p-1 text-2xl" id="add-task">
+              Add Task
+            </button>
+          </div>
+        </form>
+        <section class="">
+          <div class="grid grid-cols-2 gap-4 p-8">
+            <div class="bg-white">
+              <h2
+                class="
+                  p-4
+                  text-4xl text-center
+                  uppercase
+                  border-2
+                  md:border-b-4
+                "
+              >
+                Incomplete Task
+              </h2>
+              <ul class="ml-8 text-2xl">
+                <li class="p-4 border-b-2">
+                  Task-1
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                  <button
+                    class="bg-green-700 text-white float-right pl-2 pr-2 mr-4"
+                  >
+                    Update
+                  </button>
+                </li>
+                <li class="p-4 border-b-2">
+                  Task-2
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                  <button
+                    class="bg-green-700 text-white float-right pl-2 pr-2 mr-4"
+                  >
+                    Update
+                  </button>
+                </li>
+                <li class="p-4 border-b-2">
+                  Task-3
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                  <button
+                    class="bg-green-700 text-white float-right pl-2 pr-2 mr-4"
+                  >
+                    Update
+                  </button>
+                </li>
+                <li class="p-4 border-b-2">
+                  Task-4
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                  <button
+                    class="bg-green-700 text-white float-right pl-2 pr-2 mr-4"
+                  >
+                    Update
+                  </button>
+                </li>
+                <li class="p-4 border-b-2">
+                  Task-5
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                  <button
+                    class="bg-green-700 text-white float-right pl-2 pr-2 mr-4"
+                  >
+                    Update
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- ... -->
+            <div class="bg-white">
+              <h2
+                class="
+                  p-4
+                  text-4xl text-center
+                  uppercase
+                  border-2
+                  md:border-b-4
+                "
+              >
+                Complete Task
+              </h2>
+              <ul class="ml-8 text-2xl">
+                <li class="p-4 border-b-2">
+                  Task-1
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                </li>
+                <li class="p-4 border-b-2">
+                  Task-2
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                </li>
+                <li class="p-4 border-b-2">
+                  Task-3
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                </li>
+                <li class="p-4 border-b-2">
+                  Task-4
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                </li>
+                <li class="p-4 border-b-2">
+                  Task-5
+                  <button class="bg-red-600 text-white float-right pl-2 pr-2">
+                    Delete
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
 </html>
